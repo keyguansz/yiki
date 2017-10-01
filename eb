@@ -1,0 +1,4 @@
+# 由greenrobot[1]  组织贡献(该组织还贡献了greenDAO),一个Android事件发布/订阅轻量级框架,
+功能:通过解耦发布者和订阅者简化Android事件传递[2] 
+EventBus可以代替Android传统的Intent,Handler,Broadcast或接口函数,在Fragment,Activity,Service线程之间传递数据，执行方法。
+特点:代码简洁，是一种发布订阅设计模式(观察者设计模式)
