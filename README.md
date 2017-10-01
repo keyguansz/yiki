@@ -1,4 +1,5 @@
-## Welcome to GitHub Pages
+## Welcome to GitHub Pages，let's start yiki
+  GitHub Pages不提供语法助手，源文件和preview不直观
 
 You can use the [editor on GitHub](https://github.com/keyguansz/yiki/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
