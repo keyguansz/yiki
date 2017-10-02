@@ -29,14 +29,15 @@
 不论是cmd安装，还是预装market安装，还是ui安装，最终都会调用到installPackage这个方法入口，下面我们单独探讨一下，系统是如何执行这一个过程的
 ## 核心调用
 ### installPackage
-@Override
+‘@Override
   public void installPackage(String originPath, IPackageInstallObserver2 observer,
           int installFlags, String installerPackageName, VerificationParams verificationParams,
           String packageAbiOverride) {
       installPackageAsUser(originPath, observer, installFlags, installerPackageName, verificationParams,
               packageAbiOverride, UserHandle.getCallingUserId());
   }
-  installPackage方法只是用当前用户安装应用，最后也会调用installPackageAsUser
+  ’
+installPackage方法只是用当前用户安装应用，最后也会调用installPackageAsUser
   ### installPackage
 通过PackageHandler的实例mHandler.sendMessage（msg）把信息发给继承Handler的类HandleMessage()方法
  会自动调用Packagemanager的安装方法installPackage（）
