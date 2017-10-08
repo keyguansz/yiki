@@ -1,3 +1,34 @@
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [概述](#概述)
+- [产品PK](#产品pk)
+	- [MD-ide](#md-ide)
+		- [Atom](#atom)
+		- [Haroopad](#haroopad)
+			- [REF](#ref)
+- [GitWeb](#gitweb)
+	- [GitBooK](#gitbook)
+		- [基于gitbook建立自己的GitWeb](#基于gitbook建立自己的gitweb)
+		- [ref](#ref)
+	- [Github Pages](#github-pages)
+	- [Gogs](#gogs)
+	- [Gollum](#gollum)
+		- [ref](#ref)
+	- [markdown](#markdown)
+		- [neditor](#neditor)
+		- [Cmd Markdown](#cmd-markdown)
+	- [GitWeb](#gitweb)
+	- [产品pk](#产品pk)
+		- [马云](#马云)
+	- [](#)
+- [技术方案](#技术方案)
+- [产品形态](#产品形态)
+	- [百度文库](#百度文库)
+	- [微信读书](#微信读书)
+	- [得到](#得到)
+
+<!-- /TOC -->
+
 # 概述
  - 产品定义：ynote，一个专注于开源框架（OF）的内容管理平台（CMS），为OF作者提供代码托管,维护最完整、准确、高效的文档，最大限度推广OF。为OF读者提供基于实用和原理的OF的文档，最大限度git remote 了解OF，他提供最佳OFs建议。为作者和读者维护评论，交流
  - 本文目标。分析当前相似产品使用技术，复用、优化，提出ynote的技术方案
@@ -18,17 +49,22 @@ Atom 是Github 专门为程序员推出的一个跨平台的开源的文本编�
 打开settings界面，点击左侧栏的Install按钮。然后在搜索框中输入关键字markdown，点击右侧packages开始搜索
 必备插件：
 使用以下插件（都可以在 Settings > Install 里面找到）：
-markdown-preview：编辑实时预览插件，Atom 官方出品
-language-markdown：提供 Github Flavored Markdown 等 MD 高亮支持
-markdown-scroll-sync：将 markdown-preview 的编辑区和预览区同步滚动
-markdown-writer：方便管理图片、链接等
-markdown-table-formatter：格式化表格
-图片粘贴(markdown-image-paste)
-activate-power-mode:动画编码
-git-plus：git 操作的插件。与github深度契合。完美无缺。
+- markdown-preview：disable这个，编辑实时预览插件，Atom 官方出品，但是markdown-preview-plus是加强版
+- language-markdown：提供 Github Flavored  - Markdown 等 MD 高亮支持
+- markdown-scroll-sync：将 markdown-preview 的编辑区和预览区同步滚动
+- markdown-writer：方便管理图片、链接等
+- markdown-table-formatter：格式化表格
+- 图片粘贴(markdown-image-paste)
+- activate-power-mode:动画编码
+- git-plus：git 操作的插件。与github深度契合。完美无缺。
 
-如何使用？ 按ctrl + shift + p 弹出搜索框，然后搜索markdown preview，然后点击enter即可使用.侧边栏的keybindings，在弹出界面的搜索框中输入markdown，就能找到所有与markdown有关的快捷键
+如何使用？
 
+侧边栏的keybindings，在弹出界面的搜索框中输入markdown，就能找到所有与markdown有关的快捷键
+
+
+预览功能： ctrl + shift + p --> 搜索markdown preview；ctrl + shift + m
+TOC功能： ctrl + shift + p --> 输入 TOC 即可
 ### Haroopad
 
 2013年开发完成，然后一直没有更新？
@@ -50,6 +86,8 @@ http://blog.csdn.net/wangshubo1989/article/details/53007104
  word,html 如何快速转化为md
 
  node-webkit是个什么鬼？
+
+ Word 转化为md
 
 
 
