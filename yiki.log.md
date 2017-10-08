@@ -2,9 +2,11 @@
 
 - [概述](#概述)
 - [产品PK](#产品pk)
-	- [MD-ide](#md-ide)
-		- [Atom](#atom)
-		- [Haroopad](#haroopad)
+- [MD-ide](#md-ide)
+	- [Atom](#atom)
+	- [Haroopad](#haroopad)
+	- [editor.md](#editormd)
+	- [other](#other)
 			- [REF](#ref)
 - [GitWeb](#gitweb)
 	- [GitBooK](#gitbook)
@@ -42,15 +44,16 @@
  | gollum | RB语言，开源，authentication，Gollum不支持kramdown的高级用法，跟GitHub上的Wiki差不多，只支持最基本的Markdown语法， 不要试图折腾格式 | authentication用户鉴权 |
 |pandao   |  一个基于github的管理开源的，md编辑器，Editor.md 建立在众多优秀的开源组件基础之上，遵循和使用 MIT License 开源协议，无论个人还是公司，都可以免费自由使用。更新于 2015-06-09， |   |   |
 
-## MD-ide
-### Atom
+# MD-ide
+## Atom
 Atom 是Github 专门为程序员推出的一个跨平台的开源的文本编辑器。写作神器，这个编辑器完全是使用Web技术构建的(基于Node-Webkit)。启动速度快，提供很多常用功能的插件和主题，可以说Atom已经足以胜任“半个IDE”了。Atom比其他文本编辑器更有效率。
 
 打开settings界面，点击左侧栏的Install按钮。然后在搜索框中输入关键字markdown，点击右侧packages开始搜索
 必备插件：
 使用以下插件（都可以在 Settings > Install 里面找到）：
-- markdown-preview：disable这个，编辑实时预览插件，Atom 官方出品，但是markdown-preview-plus是加强版
-- language-markdown：提供 Github Flavored  - Markdown 等 MD 高亮支持
+- 预览：markdown-preview（自带Atom）markdown-preview< markdown-preview-plus < markdown-preview-enhanced（主题preview+toc）
+- 代码着色：language-markdown：代码着色，还提供了快捷的代码片段生成等功能
+- Github Flavored
 - markdown-scroll-sync：将 markdown-preview 的编辑区和预览区同步滚动
 - markdown-writer：方便管理图片、链接等
 - markdown-table-formatter：格式化表格
@@ -65,11 +68,9 @@ Atom 是Github 专门为程序员推出的一个跨平台的开源的文本编�
 
 预览功能： ctrl + shift + p --> 搜索markdown preview；ctrl + shift + m
 TOC功能： ctrl + shift + p --> 输入 TOC 即可
-### Haroopad
-
-2013年开发完成，然后一直没有更新？
-官网：
-http://pad.haroopress.com/
+## Haroopad
+2013年开发完成，然后一直没有更新？功能确实很强大，专门为markdown而生，语法提示，插入时间之类都很方便，这写都是atom目前没有的
+官网：http://pad.haroopress.com/
 
 作为使用人员进入：
 http://pad.haroopress.com/user.html
@@ -78,6 +79,26 @@ github地址：
 https://github.com/rhiokim/haroopad/
 
 国际化，跨平台，可以在windows mac linux上使用！
+## editor.md
+Editor.md 是一个可嵌入的开源 Markdown 在线编辑器组件，你可以很方便用在浏览器、NW.js（Node-webkit）等地方，基于CodeMirror、jQuery 和 Marked 构建。
+http://www.oschina.net/p/editor-md
+非常感谢Editor.md的开源，因为有你我才能搭建一款比较完美的使用markdown写博客的网站 http://yaokwok.com 不过看到Editor两年没更新了有点小小是失落，希望开源永恒！ #Editor.md#
+在线演示
+
+https://pandao.github.io/editor.md/examples/index.html
+## other
+- MarkdownPad：只有windowns版本，2017年还有维护,免费版用户限制比较多，不过基本功能都有了
+
+- MdCharm：Win和Linux平台
+官网 http://www.mdcharm.com/
+开源,最新发布14-Otc-2013，不再维护，out了？
+- everedit	Win平台，$35，全能型的编辑器，Markdown只是其中部分功能
+- stackedit	体验了一下，作为在线编辑器，确实不错，第一次使用需要缓存较多文件，会比较慢，后面就好了使用LocalStorage保存，不过没关系可以导出MD和HTML，PDF需要付费，$5/year(可以通过Chrome的导出到PDF弥补)，另外可以绑定Google Drive和Dropbox(付费用户)，我倒其实蛮care这些东西的源头的， 不知道stackedit是不是第一家， 但至少我看到stackedit是第一家， 而且最重要的是stackedit是开源的。 看着这些跟stackedit长的那么像的编辑器们， 当然我承认排名第一的确实更好， 你们向先行的开发者们致敬了么?
+stackEdit支持边写文档边加批注，方便随时添加todo提醒，类似”这里要加个图片“。
+
+- 马克飞象	：专为印象笔记打造的Markdown编辑器 ——这个主要是为印象笔记服务的了。
+-
+
 
 #### REF
 
