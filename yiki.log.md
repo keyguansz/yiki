@@ -189,6 +189,7 @@ gvp：最有价值的开源项目
 码云于2013年正式推出，由开源中国基于 Gitlab 所开发，我们在 Gitlab 的基础上做了大量的改进和定制开发，致力于为国内开发者提供优质稳定的托管服务。目前已成为国内最大的代码托管系统。
 ## 简书
 简书首页写着“一个基于内容分析的社区”，也就是啥啥啥文章都有，不只是技术博客
+[简书有一款牛逼的markdown写作工具你知道吗](http://www.jianshu.com/p/be0b5a31aca6)
 ## REF
 [基于Git的维基管理：gollum](http://www.yangzhiping.com/tech/gollum.html)
 
@@ -198,6 +199,7 @@ gvp：最有价值的开源项目
 
 [gollum:给wiki插上git的翅膀](http://www.jianshu.com/p/9c35812b9bae)
 
+[个人知识管理公开方案的摸索WIKI](https://www.blackglory.me/exploring-the-open-program-of-personal-knowledge-management/)
 # 讨论备忘
 ## 工具
 cms，电子出版：编写
