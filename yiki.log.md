@@ -4,13 +4,6 @@
  - 技术要点。git+wiki+社交
  - 技术细节：目录，批注，审阅
  - 关键字：yiki，ynote，源笔记
-# 产品PK
- | 产品 | 特点 | 借鉴之处 |
- | ------ | ------ | ------ |
- | Gogs | Go语言，开源，[JIAHUA CHEN](https://github.com/Unknwon) | Jenkins  |
- | gollum | RB语言，开源，authentication，Gollum不支持kramdown的高级用法，跟GitHub上的Wiki差不多，只支持最基本的Markdown语法， 不要试图折腾格式 | authentication用户鉴权 |
-|pandao   |  一个基于github的管理开源的，md编辑器，Editor.md 建立在众多优秀的开源组件基础之上，遵循和使用 MIT License 开源协议，无论个人还是公司，都可以免费自由使用。更新于 2015-06-09， |   |   |
-
 # MD-IDE
 ## Atom
 Atom 是Github 专门为程序员推出的一个跨平台的开源的文本编辑器。写作神器，这个编辑器完全是使用Web技术构建的(基于Node-Webkit)。启动速度快，提供很多常用功能的插件和主题，可以说Atom已经足以胜任“半个IDE”了。Atom比其他文本编辑器更有效率。
@@ -135,6 +128,12 @@ Jekyll 是一个免费的简单静态网页生成工具，可以配合第三方�
 
 
 # GitWeb
+## 概述
+| 产品 | 特点 | 借鉴之处 |
+ | ------ | ------ | ------ |
+ | Gogs | Go语言，开源，[JIAHUA CHEN](https://github.com/Unknwon) | Jenkins  |
+ | gollum | RB语言，开源，authentication，Gollum不支持kramdown的高级用法，跟GitHub上的Wiki差不多，只支持最基本的Markdown语法， 不要试图折腾格式 | authentication用户鉴权 |
+|pandao   |  一个基于github的管理开源的，md编辑器，Editor.md 建立在众多优秀的开源组件基础之上，遵循和使用 MIT License 开源协议，无论个人还是公司，都可以免费自由使用。更新于 2015-06-09， |   |   |
 ## GitBooK
 这个工具链 (GitBook) 是一个使用 Git 和 Markdown 来构建书籍的工具，是开源并且完全免费的，它的源码可以在 [GitHub](https://github.com/GitbookIO/gitbook) 上获取
 
