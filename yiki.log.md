@@ -1,11 +1,11 @@
-# 概述
+# 1.概述
  - 产品定义1：ynote，一个专注于开源框架（OF）的内容管理平台（CMS），为OF作者提供代码托管,维护最完整、准确、高效的文档，最大限度推广OF。为OF读者提供基于实用和原理的OF的文档，最大限度git remote 了解OF，他提供最佳OFs建议。为作者和读者维护评论，交流
  - 产品定义2：ynote，类似于gitbook和readthedoc的web应用，帮助程序员方便地写技术文档
  - 本文目标。分析当前相似产品使用技术，复用、优化，提出ynote的技术方案
  - 技术要点。git+wiki+社交
  - 技术细节：目录，批注，审阅
  - 关键字：yiki，ynote，源笔记
-# MD-IDE
+# 1.MD-IDE
 ## Atom
 Atom 是Github 专门为程序员推出的一个跨平台的开源的文本编辑器。写作神器，这个编辑器完全是使用Web技术构建的(基于Node-Webkit)。启动速度快，提供很多常用功能的插件和主题，可以说Atom已经足以胜任“半个IDE”了。Atom比其他文本编辑器更有效率。
 
@@ -110,7 +110,8 @@ Jekyll 是一个免费的简单静态网页生成工具，可以配合第三方�
 作用：把本地的hexo内容提交到github上去. 安装Xcode就自带有Git，我就不多说了。
 申请GitHub（必须）
 作用：是用来做博客的远程创库、域名、服务器之类的，怎么与本地hexo建立连接等下讲。 github账号我也不再啰嗦了,没有的话直接申请就行了，跟一般的注册账号差不多，SSH Keys，看你自己了，可以不配制，不配置的话以后每次对自己的博客有改动提交的时候就要手动输入账号密码，配置了就不需要了，怎么配置我就不多说了，网上有很多教程。
-
+## http://octopress.org/
+## https://ghost.org/
 ## REF
 [采用Jekyll+GitHub Pages搭建的个人博客站点](https://github.com/stidio/stidio.github.io)：有统计，但是没有评论？
 [深入 Jekyll](https://github.com/stidio/stidio.github.io)
