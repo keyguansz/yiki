@@ -159,6 +159,13 @@ Powered by Jekyll, theme by Matt Harzewski
 
 [gitbook简明教程](http://www.chengweiyang.cn/gitbook/basic-usage/README.html)
 
+## 北半球
+北半球是由个人开发，以分享技术知识为主的知识分享社区，在这里你可以：
+
+使用Markdown在线制作书籍
+在线阅读其他用户制作的技术书籍
+通过讨论区和其他人一起交流、互相讨论
+书籍制作成pdf、epub、mobi电子书格式
 
 ## Github Pages
 GitHub Pages 可以为你或者你的项目提供介绍网页，它是由 GitHub 官方托管和发布的。你可以使用 GitHub 提供的页面自动生成器。也可以做个人博客，是个轻量级的博客系统，没有麻烦的配置。使用标记语言如Markdown，不需自己搭建服务器，还可以绑定自己的域名。
@@ -191,6 +198,13 @@ gvp：最有价值的开源项目
 ## 简书
 简书首页写着“一个基于内容分析的社区”，也就是啥啥啥文章都有，不只是技术博客
 [简书有一款牛逼的markdown写作工具你知道吗](http://www.jianshu.com/p/be0b5a31aca6)
+## 蚂蚁笔记
+open source alternative to Evernote
+蚂蚁笔记，有极客范的云笔记！
+前所未有的文档体验，近乎完美的平台覆盖，支持团队协同，企业级私有云
+
+蚂蚁笔记 = 笔记 + 博客 + 协作 + 私有云
+## http://www.ecshop.com/
 ## REF
 [基于Git的维基管理：gollum](http://www.yangzhiping.com/tech/gollum.html)
 
